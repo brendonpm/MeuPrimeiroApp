@@ -30,4 +30,13 @@ public class PrimeiraTela extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void telaSobre(View view){
+
+        Intent intent = new Intent(this, SobreActivity.class);
+
+        intent.putExtra("teste",R.id.textView4);
+
+        startActivity(intent);
+
+    }
 }

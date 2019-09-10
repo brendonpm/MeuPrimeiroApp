@@ -34,31 +34,30 @@
 
                 <Button
                     android:id="@+id/button"
-                    android:layout_width="85dp"
-                    android:layout_height="85dp"
+                    android:layout_width="152dp"
+                    android:layout_height="56dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="92dp"
                     android:layout_marginEnd="8dp"
-                    android:text="Button"
+                    android:onClick="tela2"
+                    android:text="Cronograma"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.494"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    android:onClick="tela2"
-                    />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <Button
                     android:id="@+id/button2"
-                    android:layout_width="88dp"
-                    android:layout_height="84dp"
+                    android:layout_width="93dp"
+                    android:layout_height="54dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginBottom="8dp"
-                    android:text="Button"
+                    android:onClick="telaSobre"
+                    android:text="Sobre"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.501"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button"
 
